@@ -2,15 +2,29 @@ import numpy as np
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 
-# Parâmetros (sinta-se livre para alterar)
-delta = 0.1
+#pode variar os parametros de forma que preferir 
+
+#  Conjunto 1 (parâmetros suaves)
+# delta = 0.2
+# alpha = -1.0
+# beta = 1.0
+# A = 0.5
+# phi = 1.2
+
+# Conjunto 2 (mais caótico)
+# delta = 0.1
+# alpha = -1.0
+# beta = 5.0
+# A = 1.0
+# phi = 1.5
+
+
+# Conjunto 3 (parâmetros suaves)
+delta = 0.2
 alpha = -1.0
-beta = 8.0
-A = 1.2
-phi = 1.3
-
-
-
+beta = 1.0
+A = 0.5
+phi = 1.2
 
 # Equação de Duffing convertida para sistema de 1ª ordem
 def duffing(t, y):
