@@ -71,6 +71,17 @@ As simulações revelam:
    pip install -r requisitos.txt
    python duffing_simulation.py
 
+📚 Referências
+Duffing, G. Erzwungene Schwingungen... (1918)
+
+Strogatz, S. H. Nonlinear Dynamics and Chaos (2015)
+
+Boyce, W.; DiPrima, R. Elementary Differential Equations
+
+SciPy Docs: solve_ivp
+
+Matplotlib: https://matplotlib.org
+
 
       
 
